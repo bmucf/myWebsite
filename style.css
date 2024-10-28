@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: hsl(0, 0%, 0%);
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+  }
+
+  .heading {
+    border-bottom: 15px solid rgb(255, 255, 255);
+    background-image: url(https://wallpapershome.com/images/pages/pic_h/6592.jpg);
+    position:fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .nav {
+    border: 15px solid rgb(255, 255, 255);
+    position: fixed;
+    left: 0;
+    top: 115px;
+    width: 15%;
+    padding: 10px 20px;
+    border-top-right-radius: 50px;
+    border-left: 0px;
+    border-bottom: none;
+    min-height: 812px;
+    z-index: 0;
+  }
+
+  .nav li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    background-color: #3b363f;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .content {
+    border: 15px solid rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+    top: 115px;
+    width: 85.8%;
+    padding: 10px 20px;
+    border-top-left-radius: 50px;
+    border-right: 0px;
+    border-bottom: none;
+    z-index: 0;
+  }
+
+  .content h2, .nav h2 {
+    background-color: #616283;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding-left: 20px;
+  }
+
+  .content p, h3 {
+    margin-left: 50px;
+    font-size: larger;
+  }
+
+
+
+  a h3, h3{
+    border-radius: 8px;
+    background-color: #3b363f;
+    padding: 5px;
+  }
+  
+  #aboutSect img {
+    float: right;
+    padding: 0px 0px 60px 20px;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  a:active {
+    text-decoration: underline;
+    color: rgb(138, 222, 255);
+  } 
